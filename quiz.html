@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Valorant Trivia</title>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Valorant, Trivia, Video Games">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Valorant Trivia</h1>
+    </header>
+    <main>
+        <div class="question">
+            <p>Question</p>
+            <div class="question-box">
+                <!-- 
+                    1. Is Sova from Poland? False
+                    2. Is Viper's real name Sabine? True
+                    3. Was Brimstone the first agent? True
+                    4. Is Killjoy a Controller? False
+                -->
+            </div>
+        </div>
+
+        <div class="answer">
+            <p>Answer</p>
+            <div class="answer-box">
+                <input type="radio" id="true" name="answer" value="true">
+                <label for="true">True</label><br>  
+                <input type="radio" id="false" name="answer" value="false">
+                <label for="false">False</label><br>
+                <input type="submit" name="check-answer" value="Check Answer">
+                <p class="validation">
+                    <!--Correct/Incorrect-->
+                </p>
+            </div>
+        </div>
+
+        <div class="choice">
+            <input type="submit" id="sova" name="choice" value="Sova">
+            <input type="submit" id="viper" name="choice" value="Viper">
+            <input type="submit" id="brimstone" name="choice" value="Brimstone">
+            <input type="submit" id="killjoy" name="choice" value="Killjoy">
+        </div>
+    </main>
+    <aside>
+        <h2>History</h2>
+        <ul>
+            <!--Question List-->
+        </ul>
+    </aside>
+    <footer>
+        <p>Anastasiya Velychko &copy 2023</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="quiz.js"></script>
+</body>
+</html>
